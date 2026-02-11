@@ -264,6 +264,18 @@ strong {
   height: 580px;
 }
 
+.hero .carousel,
+.hero .carousel-inner,
+.hero .carousel-item {
+  height: 100%;
+}
+
+.hero .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .heroText {
   background: var(--white-color);
   position: absolute;
